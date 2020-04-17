@@ -2,18 +2,18 @@
 using namespace std;
 
 void print_D08(int year = 1900, int month = 1, int day = 1) {
-	cout << "»ý³â¿ùÀÏÀº " << year << "³â " << month << "¿ù " << day << "ÀÏ ÀÔ´Ï´Ù." << endl;
+	cout << "ìƒë…„ì›”ì¼ì€ " << year << "ë…„ " << month << "ì›” " << day << "ì¼ ìž…ë‹ˆë‹¤." << endl;
 
 }
 
 int main() {
 	int year, month, day;
 	print_D08();
-	cout << "year ÀÔ·Â : ";
+	cout << "year ìž…ë ¥ : ";
 	cin >> year;
-	cout << "month ÀÔ·Â :";
+	cout << "month ìž…ë ¥ :";
 	cin >> month;
-	cout << "day ÀÔ·Â : ";
+	cout << "day ìž…ë ¥ : ";
 	cin >> day;
 	print_D08(year, month, day);
 	
