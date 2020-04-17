@@ -9,17 +9,17 @@ int main() {
 	int x, y;
 	get_data(x, y);
 
-	cout << "swap_call_by_value ÇÔ¼ö »ç¿ë Àü" << endl;
+	cout << "swap_call_by_value í•¨ìˆ˜ ì‚¬ìš© ì „" << endl;
 	cout << "x = " << x << ", y = " << y << endl;
 	swap_call_by_value(x, y);
-	cout << "swap_call_by_value ÇÔ¼ö »ç¿ë ÈÄ" << endl;
+	cout << "swap_call_by_value í•¨ìˆ˜ ì‚¬ìš© í›„" << endl;
 	cout << "x = " << x << ", y = " << y << endl;
 	cout << endl;
 
-	cout << "swap_call_by_reference ÇÔ¼ö »ç¿ë Àü" << endl;
+	cout << "swap_call_by_reference í•¨ìˆ˜ ì‚¬ìš© ì „" << endl;
 	cout << "x = " << x << ", y = " << y << endl;
 	swap_call_by_reference(x, y);
-	cout << "swap_call_by_reference ÇÔ¼ö »ç¿ë ÈÄ" << endl;
+	cout << "swap_call_by_reference í•¨ìˆ˜ ì‚¬ìš© í›„" << endl;
 	cout << "x = " << x << ", y = " << y << endl;
 
 	return 0;
@@ -27,9 +27,9 @@ int main() {
 
 
 void get_data(int& x, int& y) {
-	cout << " x ÀÔ·Â : ";
+	cout << " x ì…ë ¥ : ";
 	cin >> x;
-	cout << " y ÀÔ·Â : ";
+	cout << " y ì…ë ¥ : ";
 	cin >> y;
 }
 
